@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
             ]));
   }
 
-  // ボタンが押された際に発火させる、Metamask とのセッションを確立する関数
+  // ボタンが押された際に発火させる、walletConnect との session を確立する関数
   Future<void> connectToMetamask() async {
     final connector = createConnector();
 
